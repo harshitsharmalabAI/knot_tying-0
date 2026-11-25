@@ -10,7 +10,7 @@ the knot simulation, the ROS 2 two-arm pipeline, and the course experiments E0-E
 
 ## What is where
 
-| Part of the presentation | Files |
+| Experiment | Files |
 |---|---|
 | Thread model: stretch, bend, twist, Laplace filter (Theory) | `tension_knot.py` (PyElastica rod setup) |
 | Contact and thread-on-thread friction (μ = 0.3 thread, 0.2 on B's shaft) | `frictional_contact.py`, `tension_knot.py` |
