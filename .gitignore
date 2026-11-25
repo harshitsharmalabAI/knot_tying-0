@@ -1,0 +1,18 @@
+# run outputs
+*.npz
+*.npy
+*.png
+*.gif
+*.mp4
+*.log
+*.urdf
+__pycache__/
+*.pyc
+
+# experiments: results and the files setup.sh copies in
+experiments/results/
+experiments/results_summary.zip
+experiments/frictional_contact.py
+experiments/wound_tissue.py
+experiments/knot_check.py
+experiments/knot_ros/
