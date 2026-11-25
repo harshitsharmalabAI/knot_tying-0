@@ -6,7 +6,6 @@ at 12 N. The thread is a PyElastica Cosserat rod (5 mm radius, E = 1 MPa) with t
 Coulomb friction added by us; in ROS 2 the instruments are carried by two UR7e arms with the
 InfinyToolkit grasper.
 
-This repository holds the code up to the final presentation:
 the knot simulation, the ROS 2 two-arm pipeline, and the course experiments E0-E6.
 
 ## What is where
@@ -78,8 +77,3 @@ Details in [`experiments/README.md`](experiments/README.md).
 - E3: P-control error × k_p constant within 3.5 % (error 17.8 → 8.7 → 4.3 %); PI k_p = k_i = 0.02 holds 12 N within 0.7 %.
 - E6: better bases raise the smallest |det J| along the knot 3× (0.023 → 0.068).
 
-## Not included
-
-Earlier SOFA trials, the thin-thread (0.1 mm) work and the DisMech study are later or separate work
-and are not part of this repository. Run outputs (`.npz`, `.npy`, images, videos, `results/`) are not
-tracked; the scripts regenerate them.
