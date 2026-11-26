@@ -1,6 +1,6 @@
-# Course experiments: knot tying with two UR7e arms (AR-523)
+# Experiments: knot tying with two UR7e arms (AR-523)
 
-New experiments for the final presentation. They test the classical-robotics parts of
+They test the classical-robotics parts of
 the project: Jacobian IK, trajectory time scaling, tension feedback control, base placement,
 plus robustness and failure cases of the PyElastica knot. The knot code itself lives in the repo
 root; setup.sh copies the shared files into this folder.
