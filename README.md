@@ -8,8 +8,6 @@ InfinyToolkit grasper.
 
 the knot simulation, the ROS 2 two-arm pipeline, and the course experiments E0-E6.
 
-## What is where
-
 | Experiment | Files |
 |---|---|
 | Thread model: stretch, bend, twist, Laplace filter (Theory) | `tension_knot.py` (PyElastica rod setup) |
@@ -68,7 +66,7 @@ JOBS=14 nohup bash run_all2.sh > run_all2.log 2>&1 &   # after batch 1 has finis
 ```
 Details in [`experiments/README.md`](experiments/README.md).
 
-## Main results (from the presentation)
+## Main results 
 
 - 52 / 52 physics runs tied and held the knot across 13 configurations (tested range only).
 - Baseline: strand A 12.10 N, tail 12.03 N, arms never closer than 4.5 cm, winding −2.37.
