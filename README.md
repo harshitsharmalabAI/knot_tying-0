@@ -56,7 +56,7 @@ ros2 launch ./knot_replay.launch.py                   # [speed:=0.5] [thread_wid
 ros2 launch ./knot_live.launch.py                     # live, about 55x slower than real time
 ```
 
-The course experiments (batch 1 about 2-2.5 h, batch 2 about 75 min on a 16-core EPYC):
+The experiments (batch 1 about 2-2.5 h, batch 2 about 75 min on a 16-core EPYC):
 ```bash
 conda activate harshit_env
 cd experiments
